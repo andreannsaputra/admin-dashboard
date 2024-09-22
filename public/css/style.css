@@ -1,0 +1,76 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff; /* Main content background */
+    color: #333333; /* Text color */
+}
+
+a {
+    text-decoration: none;
+    color: #1e3a8a; /* Navy Blue */
+}
+
+/* Layout Structure */
+header {
+    background-color: #e3f2fd; /* Light Blue */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #1e3a8a;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh; /* Full height page */
+}
+
+aside {
+    background-color: #e8f5e9; /* Soft Green */
+    padding: 20px;
+    width: 20%;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+footer {
+    background-color: #f1f1f1; /* Light Gray */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Additional Styles */
+.content {
+    margin-top: 20px;
+}
+
+.footer-text {
+    color: #333333;
+}
